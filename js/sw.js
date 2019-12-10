@@ -10,6 +10,7 @@ var urlsToCache = [
  "/img/movie_720.jpg",
  "/img/movie_480.jpg",
  "/css/style.css ",
+ "/manifest.json"
 ];
 self.addEventListener("install", function(event) {
  event.waitUntil(
